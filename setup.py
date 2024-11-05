@@ -21,7 +21,7 @@
 from setuptools import setup
 from setuptools import find_packages
 
-version = "2.6.0"
+version = "2.5.1"
 
 
 setup(
@@ -40,9 +40,9 @@ setup(
         "Programming Language :: Python",
     ],
     keywords=["senaite", "lims", "opensource"],
-    author="RIDING BYTES & NARALABS",
-    author_email="senaite@senaite.com",
-    url="https://github.com/senaite/senaite.core",
+    author="Prudhvi Raj Kanumuri",
+    author_email="prudhvi@prabhatech.com",
+    url="https://github.com/Prudhvikanumuri9/lims.core",
     license="GPLv2",
     package_dir={"": "src"},
     # packages=["bika", "bika.lims", "senaite", "senaite.core"],
