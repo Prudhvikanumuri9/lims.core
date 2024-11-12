@@ -4611,7 +4611,7 @@ msgid "SENAITE Registry"
 msgstr ""
 
 #: senaite/core/profiles/default/types/Setup.xml
-msgid "SENAITE Setup"
+msgid "Lims Setup"
 msgstr ""
 
 #: senaite/core/browser/frontpage/configure.zcml:23

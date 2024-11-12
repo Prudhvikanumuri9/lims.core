@@ -199,11 +199,11 @@ def install(context):
 
 
 def add_senaite_setup(portal):
-    """Add the new SENAITE Setup container
+    """Add the new Lims Setup container
     """
     items = [
         # ID, Title, FTI
-        ("setup", "SENAITE Setup", "Setup"),
+        ("setup", "Lims Setup", "Setup"),
     ]
     add_dexterity_items(portal, items)
 

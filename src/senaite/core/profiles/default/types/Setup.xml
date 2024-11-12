@@ -5,8 +5,8 @@
         xmlns:i18n="http://xml.zope.org/namespaces/i18n">
 
   <!-- Title and Description -->
-  <property name="title" i18n:translate="">SENAITE Setup</property>
-  <property name="description"></property>
+  <property name="title" i18n:translate="">Lims Setup</property>
+  <property name="description"></property>  
 
   <!-- content-type icon -->
   <property name="icon_expr">senaite_theme/icon/setup</property>
