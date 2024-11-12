@@ -11,7 +11,7 @@
   <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title i18n:translate="">Welcome to SENAITE</title>
+    <title i18n:translate="">Welcome to PrabhaTech Lims</title>
     <link rel="stylesheet" type="text/css"
           tal:attributes="href string:${context/absolute_url}/++plone++senaite.core.static/modules/bootstrap/css/bootstrap.min.css"
           href="bootstrap.min.css" />
@@ -30,7 +30,7 @@
             <h1>
               <img src="senaite-logo.png"
                    height="30"
-                   tal:attributes="src string:${context/absolute_url}/++plone++senaite.core.static/images/senaite.svg" />
+                   tal:attributes="src string:${context/absolute_url}/++plone++senaite.core.static/images/prabhatech.png" />
               <small class="lead">Enterprise Open Source Laboratory System 123456789</small>
             </h1>
             <hr/>
@@ -49,7 +49,7 @@
                           <img src="favicon.ico"
                               height="16"
                               tal:attributes="src string:${context/absolute_url}/++plone++senaite.core.static/images/favicon.ico" />
-                          <span i18n:translate="">View your SENAITE site</span>
+                          <span i18n:translate="">View your PrabhaTech lims site</span>
                         </a>
                       </span>
                       <div class="upgrade-warning"
@@ -75,7 +75,7 @@
                 </tal:one>
 
                 <tal:many tal:condition="python:len(sites) &gt; 1">
-                  <h2 id="multiple-sites" i18n:translate=""> You have multiple SENAITE sites:</h2>
+                  <h2 id="multiple-sites" i18n:translate=""> You have multiple PRABHATECH Lims sites:</h2>
                   <ul class="list-group">
                     <li class="list-group-item" tal:repeat="site sites">
                       <span class="prominent">
@@ -117,27 +117,27 @@
               </tal:block>
 
               <li class="list-group-item">
-                <!-- No SENAITE site added yet -->
+                <!-- No PRABHATECH Lims site added yet -->
                 <span i18n:translate="" tal:condition="not:sites">
-                  Your SENAITE site has not been added yet:
+                  Your PRABHATECH Lims site has not been added yet:
                 </span>
                 <span i18n:translate="" tal:condition="sites">
-                  You can add another SENAITE site:
+                  You can add another PRABHATECH Lims site:
                 </span>
                 <form id="add-plone-site"
                       method="get"
                       action="#"
                       tal:define="site_number python: '' if not sites else len(sites) + 1"
                       tal:attributes="action string:${context/absolute_url}/@@senaite-addsite">
-                  <input type="hidden" name="site_id" value="senaite${site_number}" />
-                  <input type="hidden" name="site_title" value="SENAITE LIMS" />
+                  <input type="hidden" name="site_id" value="lims${site_number}" />
+                  <input type="hidden" name="site_title" value="PRABHATECH LIMS" />
                   <input type="submit"
                          class="btn btn-success"
                          i18n:attributes="value;"
-                         value="Create a new SENAITE site" />
+                         value="Create a new PRABHATECH LIMS site" />
                   <a class="btn btn-outline-secondary"
                      i18n:translate=""
-                     tal:attributes="href string:${context/absolute_url}/@@senaite-addsite?site_id=senaite${site_number}&site_title=SENAITE LIMS&amp;advanced=1">
+                     tal:attributes="href string:${context/absolute_url}/@@senaite-addsite?site_id=lims${site_number}&site_title=PRABHATECH LIMS&amp;advanced=1">
                     Advanced
                   </a>
                 </form>
@@ -149,17 +149,6 @@
           <!-- Community Links -->
           <div class="row">
             <div class="col-sm-12">
-              <hr/>
-              <div i18n:translate="" class="lead">
-                Meet the community, browse the code and get support on
-              </div>
-              <ul class="list-inline flex-column flex-sm-row">
-                <li class="list-inline-item"><a class="btn btn-outline-secondary" href="https://www.senaite.com" title="Website" target="_blank">Website</a></li>
-                <li class="list-inline-item"><a class="btn btn-outline-secondary" href="https://community.senaite.com" title="SENAITE community" target="_blank">Community Site</a></li>
-                <li class="list-inline-item"><a class="btn btn-outline-secondary" href="https://gitter.im/senaite/Lobby" title="Gitter Chat" target="_blank">Gitter Chat</a></li>
-                <li class="list-inline-item"><a class="btn btn-outline-secondary" href="https://github.com/senaite" title="GitHub" target="_blank">GitHub</a></li>
-                <li class="list-inline-item"><a class="btn btn-outline-secondary" href="https://twitter.com/senaitelims" title="Twitter" target="_blank">Twitter</a></li>
-              </ul>
             </div>
           </div>
 

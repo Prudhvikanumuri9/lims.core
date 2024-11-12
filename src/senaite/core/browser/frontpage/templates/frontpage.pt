@@ -14,7 +14,7 @@
     <h1 class="documentFirstHeading">
       <!-- <img tal:attributes="src view/icon"/> -->
       <span i18n:translate="">Welcome to</span>
-      <img height="50" tal:attributes="src string:${portal_url}/++plone++senaite.core.static/images/senaite-site-logo.png"/>
+      <img height="50" tal:attributes="src string:${portal_url}/++plone++senaite.core.static/images/lims-site-logo.png"/>
     </h1>
 
   </metal:content-title>

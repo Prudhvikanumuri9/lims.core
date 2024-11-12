@@ -25,7 +25,7 @@ from Products.CMFPlone.utils import getSiteLogo
 from Products.Five.browser.pagetemplatefile import ViewPageTemplateFile
 from zope.component import getUtility
 
-LOGO_URL = "++plone++senaite.core.static/images/senaite-site-logo.png"
+LOGO_URL = "++plone++senaite.core.static/images/lims-site-logo.png"
 
 
 class LogoViewlet(ViewletBase):

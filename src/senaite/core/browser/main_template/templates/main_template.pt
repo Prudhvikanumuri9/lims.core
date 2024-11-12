@@ -46,7 +46,7 @@
 
       <!-- NOTE: All Legacy JS/CSS are rendered at the bottom of the page! -->
 
-      <meta name="generator" content="SENAITE - https://www.senaite.com" />
+      <meta name="generator" content="PRABHATECH - https://prabhatech.com" />
 
       <meta name="viewport"
             tal:define="viewportvalues bootstrapview/get_viewport_values"
