@@ -31,7 +31,7 @@
               <img src="senaite-logo.png"
                    height="30"
                    tal:attributes="src string:${context/absolute_url}/++plone++senaite.core.static/images/prabhatech.png" />
-              <small class="lead">Enterprise Open Source Laboratory System 123456789</small>
+              <small class="lead">Enterprise Open Source Laboratory System</small>
             </h1>
             <hr/>
 
